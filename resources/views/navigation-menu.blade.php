@@ -55,6 +55,9 @@
                             <x-dropdown-link href="{{ route('profile.show') }}">
                                 {{ __('Profile') }}
                             </x-dropdown-link>
+                            <x-dropdown-link href="{{ route('profile.settings') }}">
+                                {{ __('Settings') }}
+                            </x-dropdown-link>
 
                             <div class="border-t border-gray-200 dark:border-gray-600"></div>
 
